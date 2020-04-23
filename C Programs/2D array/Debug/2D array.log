@@ -1,0 +1,20 @@
+﻿Build started 10-Jul-18 5:09:25 PM.
+     1>Project "I:\PROGRAM\C\2D array\2D array\2D array.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\2D array.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       ManifestResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+       Manifest:
+         All outputs are up-to-date.
+       FinalizeBuildStatus:
+         Deleting file "Debug\2D array.unsuccessfulbuild".
+         Touching "Debug\2D array.lastbuildstate".
+     1>Done Building Project "I:\PROGRAM\C\2D array\2D array\2D array.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.04
