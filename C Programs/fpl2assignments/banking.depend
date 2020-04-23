@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1483114691 source:c:\users\dell\desktop\jayesh programs\banking\banking.c
+	<stdio.h>
+	<ctype.h>
+
