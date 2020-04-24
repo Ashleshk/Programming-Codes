@@ -1,0 +1,9 @@
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\bin\Debug\BasicCaculator.exe.config
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\bin\Debug\BasicCaculator.exe
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\bin\Debug\BasicCaculator.pdb
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\obj\Debug\BasicCaculator.csprojAssemblyReference.cache
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\obj\Debug\BasicCaculator.Properties.Resources.resources
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\obj\Debug\BasicCaculator.csproj.GenerateResource.cache
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\obj\Debug\BasicCaculator.csproj.CoreCompileInputs.cache
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\obj\Debug\BasicCaculator.exe
+I:\PROGRAM\c#\BasicCaculator\BasicCaculator\obj\Debug\BasicCaculator.pdb
