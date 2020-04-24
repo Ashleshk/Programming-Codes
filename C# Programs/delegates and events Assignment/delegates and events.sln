@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "delegates and events", "delegates and events\delegates and events.csproj", "{96534596-1AC8-4540-8035-EC15FB7E6F6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multicast", "multicast\multicast.csproj", "{948F4AFC-8075-4BB9-BC8F-8A00909B5A59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eventhandlingdemoexp", "eventhandlingdemoexp\eventhandlingdemoexp.csproj", "{7CE71673-6C29-4B98-90FC-A800307D6357}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab16_assignment", "lab16_assignment\lab16_assignment.csproj", "{767B5C0D-3765-4CA2-8163-47E98ECE9BE4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96534596-1AC8-4540-8035-EC15FB7E6F6E}.Debug|x86.ActiveCfg = Debug|x86
+		{96534596-1AC8-4540-8035-EC15FB7E6F6E}.Debug|x86.Build.0 = Debug|x86
+		{96534596-1AC8-4540-8035-EC15FB7E6F6E}.Release|x86.ActiveCfg = Release|x86
+		{96534596-1AC8-4540-8035-EC15FB7E6F6E}.Release|x86.Build.0 = Release|x86
+		{948F4AFC-8075-4BB9-BC8F-8A00909B5A59}.Debug|x86.ActiveCfg = Debug|x86
+		{948F4AFC-8075-4BB9-BC8F-8A00909B5A59}.Debug|x86.Build.0 = Debug|x86
+		{948F4AFC-8075-4BB9-BC8F-8A00909B5A59}.Release|x86.ActiveCfg = Release|x86
+		{948F4AFC-8075-4BB9-BC8F-8A00909B5A59}.Release|x86.Build.0 = Release|x86
+		{7CE71673-6C29-4B98-90FC-A800307D6357}.Debug|x86.ActiveCfg = Debug|x86
+		{7CE71673-6C29-4B98-90FC-A800307D6357}.Debug|x86.Build.0 = Debug|x86
+		{7CE71673-6C29-4B98-90FC-A800307D6357}.Release|x86.ActiveCfg = Release|x86
+		{7CE71673-6C29-4B98-90FC-A800307D6357}.Release|x86.Build.0 = Release|x86
+		{767B5C0D-3765-4CA2-8163-47E98ECE9BE4}.Debug|x86.ActiveCfg = Debug|x86
+		{767B5C0D-3765-4CA2-8163-47E98ECE9BE4}.Debug|x86.Build.0 = Debug|x86
+		{767B5C0D-3765-4CA2-8163-47E98ECE9BE4}.Release|x86.ActiveCfg = Release|x86
+		{767B5C0D-3765-4CA2-8163-47E98ECE9BE4}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
