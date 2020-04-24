@@ -1,0 +1,7 @@
+I:\PROGRAM\c#\BitwiseOperators\BitwiseOperators\bin\Debug\BitwiseOperators.exe.config
+I:\PROGRAM\c#\BitwiseOperators\BitwiseOperators\bin\Debug\BitwiseOperators.exe
+I:\PROGRAM\c#\BitwiseOperators\BitwiseOperators\bin\Debug\BitwiseOperators.pdb
+I:\PROGRAM\c#\BitwiseOperators\BitwiseOperators\obj\Debug\BitwiseOperators.csprojAssemblyReference.cache
+I:\PROGRAM\c#\BitwiseOperators\BitwiseOperators\obj\Debug\BitwiseOperators.csproj.CoreCompileInputs.cache
+I:\PROGRAM\c#\BitwiseOperators\BitwiseOperators\obj\Debug\BitwiseOperators.exe
+I:\PROGRAM\c#\BitwiseOperators\BitwiseOperators\obj\Debug\BitwiseOperators.pdb
