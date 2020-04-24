@@ -1,0 +1,23 @@
+﻿Build started 12/22/2017 7:22:53 PM.
+     1>Project "Z:\ashlesh\lab01\lab01\lab01.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\lab01.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt prime.c
+         prime.c
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\ashlesh\lab01\Debug\lab01.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\lab01.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\ashlesh\lab01\Debug\lab01.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\ashlesh\lab01\Debug\lab01.lib" /MACHINE:X86 Debug\fibonacci_search.obj
+         Debug\prime.obj
+     1>fibonacci_search.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         lab01.vcxproj -> Z:\ashlesh\lab01\Debug\lab01.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"Z:\ashlesh\lab01\Debug\lab01.exe;#1" /manifest Debug\lab01.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\lab01.unsuccessfulbuild".
+         Touching "Debug\lab01.lastbuildstate".
+     1>Done Building Project "Z:\ashlesh\lab01\lab01\lab01.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.97
