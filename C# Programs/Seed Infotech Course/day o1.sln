@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "day o1", "day o1\day o1.csproj", "{DD37143A-C09A-4D1E-BCA5-C47910AB28F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "method overloading", "method overloading\method overloading.csproj", "{F19DAD4B-EB45-4DD3-8125-08CC025B1278}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "paramsdemo", "paramsdemo\paramsdemo.csproj", "{8DEEC88E-F9A2-40A8-8AAB-D2B39DC526BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "labassignment-01", "labassignment-01\labassignment-01.csproj", "{F3DA7477-6437-4E3F-A234-11C19B41F313}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD37143A-C09A-4D1E-BCA5-C47910AB28F5}.Debug|x86.ActiveCfg = Debug|x86
+		{DD37143A-C09A-4D1E-BCA5-C47910AB28F5}.Debug|x86.Build.0 = Debug|x86
+		{DD37143A-C09A-4D1E-BCA5-C47910AB28F5}.Release|x86.ActiveCfg = Release|x86
+		{DD37143A-C09A-4D1E-BCA5-C47910AB28F5}.Release|x86.Build.0 = Release|x86
+		{F19DAD4B-EB45-4DD3-8125-08CC025B1278}.Debug|x86.ActiveCfg = Debug|x86
+		{F19DAD4B-EB45-4DD3-8125-08CC025B1278}.Debug|x86.Build.0 = Debug|x86
+		{F19DAD4B-EB45-4DD3-8125-08CC025B1278}.Release|x86.ActiveCfg = Release|x86
+		{F19DAD4B-EB45-4DD3-8125-08CC025B1278}.Release|x86.Build.0 = Release|x86
+		{8DEEC88E-F9A2-40A8-8AAB-D2B39DC526BC}.Debug|x86.ActiveCfg = Debug|x86
+		{8DEEC88E-F9A2-40A8-8AAB-D2B39DC526BC}.Debug|x86.Build.0 = Debug|x86
+		{8DEEC88E-F9A2-40A8-8AAB-D2B39DC526BC}.Release|x86.ActiveCfg = Release|x86
+		{8DEEC88E-F9A2-40A8-8AAB-D2B39DC526BC}.Release|x86.Build.0 = Release|x86
+		{F3DA7477-6437-4E3F-A234-11C19B41F313}.Debug|x86.ActiveCfg = Debug|x86
+		{F3DA7477-6437-4E3F-A234-11C19B41F313}.Debug|x86.Build.0 = Debug|x86
+		{F3DA7477-6437-4E3F-A234-11C19B41F313}.Release|x86.ActiveCfg = Release|x86
+		{F3DA7477-6437-4E3F-A234-11C19B41F313}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
