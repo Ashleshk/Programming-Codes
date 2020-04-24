@@ -1,0 +1,7 @@
+I:\PROGRAM\calculator\calculator\bin\Debug\calculator.exe
+I:\PROGRAM\calculator\calculator\bin\Debug\calculator.pdb
+I:\PROGRAM\calculator\calculator\obj\x86\Debug\calculator.Form1.resources
+I:\PROGRAM\calculator\calculator\obj\x86\Debug\calculator.Properties.Resources.resources
+I:\PROGRAM\calculator\calculator\obj\x86\Debug\calculator.csproj.GenerateResource.Cache
+I:\PROGRAM\calculator\calculator\obj\x86\Debug\calculator.exe
+I:\PROGRAM\calculator\calculator\obj\x86\Debug\calculator.pdb
