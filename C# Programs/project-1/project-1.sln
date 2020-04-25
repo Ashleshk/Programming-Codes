@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "boolean", "project-1\boolean.csproj", "{DD913189-4B0D-4086-BFE3-28B495DCC282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "writelinedemo", "writelinedemo\writelinedemo.csproj", "{B91FDCCD-3EEA-48E2-AC38-BC017F35F835}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD913189-4B0D-4086-BFE3-28B495DCC282}.Debug|x86.ActiveCfg = Debug|x86
+		{DD913189-4B0D-4086-BFE3-28B495DCC282}.Debug|x86.Build.0 = Debug|x86
+		{DD913189-4B0D-4086-BFE3-28B495DCC282}.Release|x86.ActiveCfg = Release|x86
+		{DD913189-4B0D-4086-BFE3-28B495DCC282}.Release|x86.Build.0 = Release|x86
+		{B91FDCCD-3EEA-48E2-AC38-BC017F35F835}.Debug|x86.ActiveCfg = Debug|x86
+		{B91FDCCD-3EEA-48E2-AC38-BC017F35F835}.Debug|x86.Build.0 = Debug|x86
+		{B91FDCCD-3EEA-48E2-AC38-BC017F35F835}.Release|x86.ActiveCfg = Release|x86
+		{B91FDCCD-3EEA-48E2-AC38-BC017F35F835}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
