@@ -1,0 +1,46 @@
+﻿.body
+{
+    padding:20px;
+    }
+
+.sidebarContent
+{
+    margin-bottom: 10px;
+    min-height:150px;
+    background-color:Silver;
+    font-size:large;
+    text-align:center;
+    
+ }
+.mainContent
+{
+    margin-bottom: 10px;
+    min-height:310px;
+    background-color:Silver;
+    font-size:large;
+    text-align:center;
+    
+ }
+.customDiv{
+    margin:10px;
+    min-height:50px;
+    background-color:silver;
+    text-align:center;
+    font-size:large;
+    padding:10px;
+}
+
+.breadcrumb > li + li:before {
+ 
+  content: "|";
+}
+.breadcrumb {
+  background-color: #ffd800;
+}
+.breadcrumb > .active {
+  color: #ff0000;
+}
+.well
+{
+    background:#dddf7c;
+     }

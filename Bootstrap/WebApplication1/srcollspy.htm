@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap tutorial for begineers</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CustomStyles.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            position: relative;
+        }
+    </style>
+</head>
+<body data-spy="scroll" data-target="#mainNavBar" data-offset="20">
+    <nav id="mainNavBar" class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#divlambo5">lambo5</a></li>
+                    <li><a href="#divlambo1">lambo1</a></li>
+                    <li><a href="#divlambo2">lambo2</a></l>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            Cars <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#divlambo3">lambo3</a>
+                            </li>
+                            <li>
+                                <a href="#divlambo4">lambo4</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="divlambo5" class="divStyle">
+            <h1>lambo5</h1>
+            <img src="Images/lambo5.jpg" class="img-responsive" />
+        </div>
+
+        <div id="divlambo1" class="divStyle">
+            <h1>lambo1</h1>
+            <img src="Images/lambo1.jpg" class="img-responsive" />
+        </div>
+
+        <div id="divlambo2" class="divStyle">
+            <h1>lambo2</h1>
+            <img src="Images/lambo2.jpg" class="img-responsive" />
+        </div>
+
+        <div id="divlambo3" class="divStyle">
+            <h1>lambo3</h1>
+            <img src="Images/lambo3.jpg" class="img-responsive" />
+        </div>
+
+        <div id="divlambo4" class="divStyle">
+            <h1>lambo4</h1>
+            <img src="Images/lambo4.jpg" class="img-responsive" />
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
+

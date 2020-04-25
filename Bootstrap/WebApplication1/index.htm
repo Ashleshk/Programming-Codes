@@ -1,0 +1,1495 @@
+﻿<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" >
+    <link rel="Stylesheet" href="CustomStyles.css" />
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1 class="text-primary">Hello, world!</h1>
+
+
+
+
+
+
+
+
+    <!---------------------------------------------------------------------------------------------->
+
+    <!--Model popup-->
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+             <button id="btnShowModal" class="btn btn-primary btn-sm pull-right" ">Login</button>
+
+              <div class="modal fade" data-keyboard="false" tabindex="-1" id="loginModal"
+            data-keyboard="false" data-backdrop="static">
+                  <div class="modal-dialog modal-sm">
+                    <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">
+                        &times;
+                    </button>
+                    <h4 class="modal-title">Login</h4>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="inputUserName">Username</label>
+                            <input class="form-control" placeholder="Login Username"
+                                    type="text" id="inputUserName" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword">Password</label>
+                            <input class="form-control" placeholder="Login Password"
+                                    type="password" id="inputPassword" />
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Login</button>
+                    <button type="button" id="btnHideModal" class="btn btn-primary"
+                             >Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!---------------------------------------------------------------------------------------------->
+   
+   <!--accordian-->
+    <!--<div id="accordion" class="panel-group">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#panelBodyOne" data-toggle="collapse" data-parent="#accordion">
+                        Asia
+                    </a>
+                </h4>
+            </div>
+            <div id="panelBodyOne" class="panel-collapse collapse in">
+                <div class="panel-body">
+                    <ul>
+                        <li>India</li>
+                        <li>China</li>
+                        <li>Japan</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#panelBodyTwo" data-toggle="collapse" data-parent="#accordion">
+                        Europe
+                    </a>
+                </h4>
+            </div>
+            <div id="panelBodyTwo" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li>United Kingdom</li>
+                        <li>France</li>
+                        <li>Germany</li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a href="#panelBodyThree" data-toggle="collapse" data-parent="#accordion">
+                        North America
+                    </a>
+                </h4>
+            </div>
+            <div id="panelBodyThree" class="panel-collapse collapse">
+                <div class="panel-body">
+                    <ul>
+                        <li>USA</li>
+                        <li>Canada</li>
+                        <li>Mexico</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>-->
+
+    <!--check the arrow head accordian in another page-->
+
+    <!---------------------------------------------------------------------------------------------->
+    
+
+    <!--media list-->
+    <ul class="media-list">
+            <li class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img src="Images/wolverine.jpg" class="media-object" alt="tom">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Tom <small><i>July 20, 2016</i></small></h4>
+                    <p>
+                        Bootstrap is a free, open-source and is the most popular HTML,
+                        CSS, and JavaScript framework developed by twitter for creating
+                        responsive web applications.
+                    </p>
+                    <!-- First Nested media object -->
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#">
+                                <img src="Images/wolverine.jpg" class="media-object" alt="sam">
+                            </a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">JAM <small><i>July 21, 2016</i></small></h4>
+                            <p>
+                                Bootstrap is a free, open-source and is the most popular HTML,
+                                CSS, and JavaScript framework developed by twitter for creating
+                                responsive web applications.
+                            </p>
+                            <!-- Another Nested media object -->
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#">
+                                        <img src="Images/wolverine.jpg" class="media-object" alt="tom">
+                                    </a>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="media-heading">Tom <small><i>July 21, 2016</i></small></h4>
+                                    <p>
+                                        Bootstrap is a free, open-source and is the most popular HTML,
+                                        CSS, and JavaScript framework developed by twitter for creating
+                                        responsive web applications.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img src="Images/wolverine.jpg" class="media-object" alt="tom">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Tom <small><i>July 21, 2016</i></small></h4>
+                    <p>
+                        Bootstrap is a free, open-source and is the most popular HTML,
+                        CSS, and JavaScript framework developed by twitter for creating
+                        responsive web applications.
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+    
+    <!---------------------------------------------------------------------------------------------->
+    
+    <!--Jumbotron-->
+    <!--<div class="container">
+        <div class="jumbotron">
+            <h1>Bootstrap Tutorial</h1>
+            <p>
+                Bootstrap is a free, open-source and is the most popular HTML, CSS,
+                and JavaScript framework developed by twitter for creating
+                responsive web applications.
+            </p>
+            <p>
+                <a class="btn btn-lg btn-primary" href="http://youtube.com/kudvenkat">
+                    Get started
+                </a>
+            </p>
+        </div>
+    </div>-->
+
+    <!--To make the jumbotron span the entire width of the page, place it outside the container.-->
+
+    <!--<div class="jumbotron">
+        <div class="container">
+            <h1>Bootstrap Tutorial</h1>
+            <p>
+                Bootstrap is a free, open-source and is the most popular HTML, CSS,
+                and JavaScript framework developed by twitter for creating
+                responsive web applications.
+            </p>
+            <p>
+                <a class="btn btn-lg btn-primary" href="http://youtube.com/kudvenkat">
+                    Get started
+                </a>
+            </p>
+        </div>
+    </div>-->
+
+    <!-------------------------------------------------------------------------------->
+    <!--progress bar-->
+    <!--<div class="progress">
+        <div class="progress-bar" style="width:70%;">
+        </div>
+    </div>-->
+    <br />
+
+    <!--type 2-->
+    <!--<div class="progress">
+        <div class="progress-bar" style="width:70%;">
+            70%
+        </div>
+    </div>-->
+    <br />
+
+    <!--type 3--->
+    <!--<div class="progress">
+        <div class="progress-bar progress-bar-striped" style="width:80%;">
+            80%
+        </div>
+    </div>-->
+
+    <!--coloured and animated (active class makes the aniamte)-->
+    <!--<div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active" style="width:25%;">
+            Login
+        </div>
+
+        <div class="progress-bar progress-bar-info progress-bar-striped active" style="width:25%;">
+            Shipping
+        </div>
+
+        <div class="progress-bar progress-bar-warning progress-bar-striped active" style="width:25%;">
+            Payment
+        </div>
+    </div>-->
+    <!-------------------------------------------------------------------------------->
+
+    <!-- bad1ge    -->
+    <!--<a href="#">Inbox <span class="badge">10</span></a><br />
+    <a href="#">Sent <span class="badge">2</span></a><br />
+    <a href="#">Spam <span class="badge">3</span></a><br />
+    <a href="#">Trash <span class="badge">5</span></a><br /><br />
+
+    <!--Using badge component with buttons--> 
+    <!--<button class="btn btn-primary">Inbox <span class="badge">10</span></button>
+    <button class="btn btn-warning">Sent <span class="badge">2</span></button>
+    <button class="btn btn-success">Spam <span class="badge">3</span></button>
+    <button class="btn btn-info">Trash <span class="badge">5</span></button>
+-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--Labels -->
+    <!--<div class="well">
+        <h3>Dot Net Courses from AshTech</h3>
+        <hr />
+        <h4>C# <span class="label label-default">Beginner</span></h4>
+        <h4>ASP.NET <span class="label label-default">Beginner</span></h4>
+        <h4>ADO.NET <span class="label label-default">Intermediate</span></h4>
+        <h4>WCF <span class="label label-default">Advanced</span></h4>
+        <h4>Bootstrap <span class="label label-default">New</span></h4>
+         <h4>C# <span class="label label-primary">Beginner</span></h4>
+        <h4>ASP.NET <span class="label label-info">Beginner</span></h4>
+        <h4>ADO.NET <span class="label label-success">Intermediate</span></h4>
+        <h4>WCF <span class="label label-danger">Advanced</span></h4>
+        <h4>Bootstrap <span class="label label-warning">New</span></h4>
+    </div>-->
+
+    <!-------------------------------------------------------------------------------->
+    
+    <!--well-->
+    <!--<div class="well">
+        Bootstrap is a free, open-source and is the most popular HTML, CSS, and JavaScript framework
+         developed by twitter for creating responsive web applications.
+    </div>
+    <div class="well well-sm">
+        <h3>Login Form</h3>
+        <hr />
+        <form class="form-horizontal">
+            <div class="form-group">
+                <label for="inputUserName" class="control-label col-sm-2">Username</label>
+                <div class="col-sm-10">
+                    <input class="form-control" placeholder="Login Username"
+                            type="text" id="inputUserName" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="inputPassword" class="control-label col-sm-2">Password</label>
+                <div class="col-sm-10">
+                    <input class="form-control" placeholder="Login Password"
+                            type="password" id="inputPassword" />
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button type="submit" class="btn btn-default">Login</button>
+                </div>
+            </div>
+        </form>
+    </div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--panel-->
+    <!--<div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="panel-title">What is bootstrap</h3>
+        </div>
+        <div class="panel-body">
+            Bootstrap is a free, open-source and is the most popular HTML, CSS, and JavaScript framework 
+            developed by twitter for creating responsive web applications. It includes HTML and CSS based 
+            design templates for common user interface components like Buttons, Dropdowns, Typography, Tabs
+            , Forms, Tables, Navigations, Alerts, Modals, Accordion, Carousel etc. along with optional
+             JavaScript extensions. Bootstrap framework is based on open standards - HTML, CSS an
+             d JavaScript. This means bootstrap can be used with any server side technology and any 
+             platform. You can use it with any web application built with any server side technology like
+              ASP.NET, JAVA, PHP etc.
+        </div>
+        <div class="panel-footer">
+            PragimTech
+        </div>
+    </div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+
+    <!--Pager and pagination-->
+    <!--Bootstrap Pager : Use pager class to create a simple pager with Previous and Next buttons. 
+    bootstrap pager example -->
+    <!--<ul class="pager">
+        <li><a href="#">&larr; Previous</a></li>
+        <li><a href="#">Next &rarr;</a></li>
+    </ul>-->
+
+    <!--Aligning the Previous and Next buttons :-->
+    <!--<ul class="pager">
+        <li class="previous"><a href="#">&larr; Previous</a></li>
+        <li class="next"><a href="#">Next &rarr;</a></li>
+    </ul>-->
+
+   <!-- Bootstrap Pagination : To create a simple pagination bar use pagination class. 
+    bootstrap pagination example -->
+   <!-- <ul class="pagination">
+        <li><a href="#">&laquo;</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">&raquo;</a></li>
+    </ul>
+    <ul class="pagination pagination-lg">
+        <li><a href="#">&laquo;</a></li>
+        <li><a href="#">1</a></li>
+        <li><a href="#">2</a></li>
+        <li><a href="#">3</a></li>
+        <li><a href="#">4</a></li>
+        <li><a href="#">5</a></li>
+        <li><a href="#">&raquo;</a></li>
+    </ul>-->
+    <!-------------------------------------------------------------------------------->
+
+
+    <!--Breadcrumbs indicate the page the user is currently on, in a 
+    navigational hierarchy of a website. Breadcrumbs are very useful 
+    for websites with large number of pages, as they allow the user to
+     navigate to any page very easily.-->
+     <!--<ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="active">About</li>
+        <li><a href="#">Products</a></li>
+    </ol>-->
+
+    <!-------------------------------------------------------------------------------->
+    <!--navigation pills-->
+    <!--Creating navigation tabs : Use nav-tabs class along with the base nav class.-->
+    <!--bootstrap nav tabs example -->
+
+      <!--<ul class="nav nav-tabs">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+
+    </ul>-->
+
+    <!--Creating navigation tabs with icons :
+    bootstrap nav tabs icon -->
+     <!--<ul class="nav nav-tabs">
+        <li class="active">
+            <a href="#">
+                <span class="glyphicon glyphicon-home"></span> Home
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="glyphicon glyphicon-earphone"></span> Contact
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span> About
+            </a>
+        </li>
+    </ul>-->
+    <br />
+
+    <!--Creating navigation pills : Use nav-pills class along with the base nav class.
+    bootstrap nav pills example--> 
+    <!--<ul class="nav nav-pills">
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About</a></li>
+    </ul>-->
+<br />
+
+    <!--Creating navigation pills with icons: Use a <span> element with class="Glyphicon Name"
+    bootstrap nav-pills icons -->
+    <!--<ul class="nav nav-pills">
+        <li class="active">
+            <a href="#">
+                <span class="glyphicon glyphicon-home"></span> Home
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="glyphicon glyphicon-earphone"></span> Contact
+            </a>
+        </li>
+        <li>
+            <a href="#">
+                <span class="glyphicon glyphicon-info-sign"></span> About
+            </a>
+        </li>
+    </ul>-->
+
+    <br />
+    <!--dropdown in navbar-->
+    <!--<div class="container">
+        <form>
+          <div class="row">
+            <div class="col-xs-12">
+             <ul class="nav nav-tabs">
+                <li class="active"><a href="#"><span class="glyphicon glyphicon-home"></span>Home</a></li>
+                <li class="disabled"><a href="http://google.com"><span class="glyphicon glyphicon-earphone"></span>Contact</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="glyphicon glyphicon-info-sign"></span>About
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Mission</a></li>
+                        <li><a href="#">Vision</a></li>
+                        <li><a href="#">Products</a></li>
+                    
+                    </ul>
+                </li>
+             
+             </ul>
+            </div>
+          </div>
+        </form>
+    </div>-->
+
+     <!--Creating responsive navbar : The navbar appears normal on a large screen size
+      devices like laptops, desktops etc. -->
+    <!--<nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+                    data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Products</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" role="search">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="Search" />
+                </div>
+                <button type="submit" class="btn btn-default">Submit</button>
+            </form>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Subscribe</a></li>
+            </ul>
+        </div>
+        </div>
+        
+    </nav>
+-->
+
+   <!-- <div>
+    ll India Council for Technical Education (AICTE), Ministry of Human Resource Development, Govt. of India, Engineering Council of India (ECI), and the Indian Society for Technical Education (ISTE), are jointly holding a competition “AICTE-ECI-ISTE Chhatra Vishwakarma Awards-2018” for the students of AICTE approved Degree & Diploma level Technical institutions.
+
+The Awards are aimed for motivating young individuals, inspiring leaders and institutions/ organizations to raise their performance in their specific domains leading to significant contribution towards the growth and development of the nation.
+
+ Important Dates
+Online application will start from: 10-07-2018
+Last date to submit the application: 17-08-2018
+<br />
+ Downloads
+Guidelines10-07-2018
+List of Winners for Chhatra Vishwakarma Awards 201710-07-2018
+To recognize and honour innovative work of the students displaying exceptional skills by providing the innovative solution on the given theme. 
+Applications will be short listed based on their conformity to the guidelines and information furnished by nominees for specific categories. The recipients will be finalised based on the Recommendation and NOC forwarded by the institute and scrutiny of the applications by the jury & practical demonstrations by the contestants. 
+Awards will be given in following Categories for Degree and Diploma Students (including students from AICTE approved Community College):
+
+Category-I: Outstanding Innovative Team Award (Degree and Diploma) 
+Category-II: Outstanding Teacher Award for mentoring Students Project
+
+The Problem: The participants need to provide and innovative solution to following problem:
+“Empowerment of Villages through Technologies”
+For the holistic development of villages under the above theme, the following 8 sub-themes have been shortlisted: -
+
+Water & Irrigation
+Sanitation & Solid Liquid Waste Management
+Rural Infrastructure
+Tourism
+Agriculture & Food
+Education, Skill Initiative & Startups
+Rural Craft & Livelihood
+    </div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--input dropdowns-->
+    <!--<div class="input-group">
+        <input type="text" class="form-control"/>
+        <span class="input-group-btn">
+            <button class="btn btn-default" type="button">Search</button>
+        </span>
+    </div>-->
+
+    <!--Using a button dropdown in an input group 
+bootstrap input group button dropdown--> 
+    <!--<div class="input-group">
+        <input type="text" class="form-control"/>
+        <div class="input-group-btn">
+            <button type="button" data-toggle="dropdown"
+                    class="btn btn-default dropdown-toggle">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Action 1</a></li>
+                <li><a href="#">Action 2</a></li>
+                <li><a href="#">Action 3</a></li>
+            </ul>
+        </div>
+    </div>-->
+
+    <!--Multiple buttons can also be added to the input element.-->
+    <!--<div class="input-group">
+        <input type="text" class="form-control"/>
+        <div class="input-group-btn">
+            <button type="button" class="btn btn-default">Cut</button>
+            <button type="button" class="btn btn-default">Copy</button>
+            <button type="button" class="btn btn-default">Paste</button>
+        </div>
+    </div>-->
+
+    <!--Multiple buttons with icons added to the input element
+bootstrap input group button icon -->
+    <!--<div class="input-group">
+        <input type="text" class="form-control"/>
+        <div class="input-group-btn">
+            <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-align-left"></span>
+            </button>
+            <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-align-center"></span>
+            </button>
+            <button type="button" class="btn btn-default">
+                <span class="glyphicon glyphicon-align-right"></span>
+            </button>
+        </div>
+    </div>-->
+
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--forms-->
+    <!--<form>
+        <div>
+            <label for="inputUserName">Username</label>
+            <input type="text" id="inputUserName" />
+        </div>
+        <div>
+            <label for="inputPassword">Password</label>
+            <input type="password" id="inputPassword" />
+        </div>
+        <button type="submit">Login</button>
+    </form>-->
+    <br />
+
+    <!--Creating a vertical form layout :-->
+    <!--<form>
+        <div class="form-group">
+            <label for="inputUserName">Username</label>
+            <input class="form-control" placeholder="Login Username"
+                    type="text" id="Text1" />
+        </div>
+        <div class="form-group">
+            <label for="inputPassword">Password</label>
+            <input class="form-control" placeholder="Login Password"
+                    type="password" id="Password1" />
+        </div>
+        <button type="submit" class="btn btn-default">Login</button>
+    </form>-->
+    <br />
+   <!-- Creating an inline form layout -->
+    <!--<form class="form-inline">
+    <div class="form-group">
+        <label for="inputUserName">Username</label>
+        <input class="form-control" placeholder="Login Username"
+                type="text" id="Text2" />
+    </div>
+    <div class="form-group">
+        <label for="inputPassword">Password</label>
+        <input class="form-control" placeholder="Login Password"
+                type="password" id="Password2" />
+    </div>
+    <button type="submit" class="btn btn-default">Login</button>
+    </form>-->
+    <br />
+
+    <!--horizontal form-->
+    <!--<form class="form-horizontal">
+    <div class="form-group">
+        <label for="inputUserName" class="control-label col-sm-2">Username</label>
+        <div class="col-sm-10">
+            <input class="form-control" placeholder="Login Username"
+                    type="text" id="Text3" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputPassword" class="control-label col-sm-2">Password</label>
+        <div class="col-sm-10">
+            <input class="form-control" placeholder="Login Password"
+                    type="password" id="Password3" />
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" class="btn btn-default">Login</button>
+        </div>
+    </div>
+</form>-->
+
+    <!--form COntrol-->
+        <form>
+        <div class="form-group">
+            <label for="inputName">Name</label>
+            <input class="form-control" type="text" id="inputName"
+                    placeholder="Full Name" />
+        </div>
+        <div class="form-group">
+            <label for="inputDOB">Date of Birth</label>
+            <input class="form-control" type="date" id="inputDOB" />
+        </div>
+        <div class="form-group">
+            <label for="inputEmail">Email</label>
+            <input class="form-control" type="email" id="inputEmail"
+                    placeholder="Email address" />
+        </div>
+        <div class="form-group">
+            <label for="inputExperience">Work Experience</label>
+            <input class="form-control" type="number" id="inputExperience"
+                    placeholder="Total experience in years" />
+        </div>
+        <div class="form-group">
+            <label for="inputUrl">Personal Website</label>
+            <input class="form-control" type="url" id="inputUrl"
+                    placeholder="Your website address" />
+        </div>
+        <div class="form-group">
+        <label for="inputDescription">Product Description</label>
+        <textarea class="form-control" id="inputDescription" rows="5"
+                    placeholder="Full Product Description"></textarea>
+        </div>
+        <br />
+        <label class="checkbox-inline">
+            <input type="checkbox" value="option1">Option 1
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="option2">Option 2
+        </label>
+        <label class="checkbox-inline">
+            <input type="checkbox" value="option3">Option 3
+        </label><br />
+        <label class="radio-inline">
+        <input type="radio" name="radioGroup" id="opt1" value="1">
+        Option 1
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="radioGroup" id="opt2" value="2">
+            Option 2
+        </label>
+        <label class="radio-inline">
+            <input type="radio" name="radioGroup" id="opt3" value="3" disabled>
+            Option 3
+        </label><br />
+        <button type="submit" class="btn btn-default">Login</button>
+    </form>
+    <br />
+
+    <!--strong- weak  invaidity validations-->
+    <!--<form class="form-horizontal">
+    <div class="form-group has-success has-feedback">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Income</label>
+        <div class="col-xs-10">
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" id="txtIncome" class="form-control"
+                        placeholder="Your annual income after taxes">
+            </div>
+            <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+            <span class="help-block">Success</span>
+        </div>
+    </div>
+    <div class="form-group has-warning has-feedback">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Income</label>
+        <div class="col-xs-10">
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" id="txtIncome" class="form-control"
+                        placeholder="Your annual income after taxes">
+            </div>
+            <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+            <span class="help-block">Warning</span>
+        </div>
+    </div>
+    <div class="form-group has-error has-feedback">
+        <label class="col-xs-2 control-label" for="txtStrongPassword">Income</label>
+        <div class="col-xs-10">
+            <div class="input-group">
+                <span class="input-group-addon">$</span>
+                <input type="text" id="txtIncome" class="form-control"
+                        placeholder="Your annual income after taxes">
+            </div>
+            <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+            <span class="help-block">Error</span>
+        </div>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon">$</span>
+        <input type="text" class="form-control" placeholder="Amount">
+        <span class="input-group-addon">.00</span>
+    </div>
+</form>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <br />
+    <!--dropdown-->
+    <!--<div class="dropdown">
+    <a data-toggle="dropdown" class="dropdown-toggle">
+        Dropdown
+        <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+        <li><a href="#">Action 1</a></li>
+        <li><a href="#">Action 2</a></li>
+        <li><a href="#">Action 3</a></li>
+    </ul>
+    </div>-->
+    
+    <!--To add a header to the dropdown menu, use dropdown-header class on an <li> element-->
+    <!--<div class="dropdown">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+            Dropdown
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-header"><strong>Header 1</strong></li>
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+            <li class="dropdown-header"><strong>Header 2</strong></li>
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+        </ul>
+    </div>-->
+    <br />
+
+    <!--To add a divider between the dropdown menu items, use divider class on an <li> element-->
+    <!--<div class="dropdown">
+        <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+            Dropdown
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-header"><strong>Header 1</strong></li>
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+            <li class="divider"></li>
+            <li class="dropdown-header"><strong>Header 2</strong></li>
+            <li><a href="#">Action 1</a></li>
+            <li><a href="#">Action 2</a></li>
+            <li><a href="#">Action 3</a></li>
+        </ul>
+    </div>-->
+    <br />
+
+    <!-------------------------------------------------------------------------------->
+
+ 
+    <!--icons classes-->
+    <!-- <button><span class="glyphicon glyphicon-search"></span> Search</button><br />
+    <button>Search <span class="glyphicon glyphicon-search"></span></button><br />
+    <button class="btn btn-primary">
+        <span class="glyphicon glyphicon-search"></span> Search
+    </button><br />
+
+   --> 
+
+    <!-------------------------------------------------------------------------------->
+ 
+   <!--split button-->
+    <!--<div class="btn-group">
+    <button class="btn btn-primary">SQL Server</button>
+    <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+        <li><a href="#">C#</a></li>
+        <li><a href="#">ASP.NET</a></li>
+        <li><a href="#">ADO.NET</a></li>
+    </ul>
+    </div>-->
+    <br />
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--button-->
+    <!--<div class="btn-group">
+        <button class="btn btn-danger">Button 1</button>
+        <button class="btn btn-default">Button 2</button>
+        <button class="btn btn-info">Button 3</button>
+        <button class="btn btn-primary">Button 4</button>
+        <button class="btn btn-success">Button 5</button>
+        <button class="btn btn-warning">Button 6</button>
+    </div>
+    --><br />
+
+    <!--btn-toolbar class-->
+    <!--<div class="btn-toolbar">
+            <div class="btn-group">
+                <a href="#" class="btn btn-danger">Button 1</a>
+                <a href="#" class="btn btn-default">Button 2</a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn btn-info">Button 3</a>
+                <a href="#" class="btn btn-primary">Button 4</a>
+                <a href="#" class="btn btn-success">Button 5</a>
+            </div>
+            <div class="btn-group">
+                <a href="#" class="btn btn-warning">Button 6</a>
+                <a href="#" class="btn btn-primary">Button 7</a>
+            </div>
+        </div>-->
+    <br />
+            
+    <!--button with diff sizes-->
+    <!--<div class="btn-toolbar">
+            <div class="btn-group btn-group-lg">
+                <a href="#" class="btn btn-danger">Button 1</a>
+                <a href="#" class="btn btn-default">Button 2</a>
+            </div>
+            <div class="btn-group btn-group-sm">
+                <a href="#" class="btn btn-info">Button 3</a>
+                <a href="#" class="btn btn-primary">Button 4</a>
+                <a href="#" class="btn btn-success">Button 5</a>
+            </div>
+            <div class="btn-group btn-group-xs">
+                <a href="#" class="btn btn-warning">Button 6</a>
+                <a href="#" class="btn btn-primary">Button 7</a>
+            </div>
+        </div>-->
+    <br />
+
+    <!--Vertical button group : To create a vertical button group use btn-group-vertical class-->
+    <!--<div class="btn-toolbar">
+            <div class="btn-group-vertical btn-group-lg">
+                <a href="#" class="btn btn-danger">Button 1</a>
+                <a href="#" class="btn btn-default">Button 2</a>
+            </div>
+            <div class="btn-group-vertical btn-group-sm">
+                <a href="#" class="btn btn-info">Button 3</a>
+                <a href="#" class="btn btn-primary">Button 4</a>
+                <a href="#" class="btn btn-success">Button 5</a>
+            </div>
+            <div class="btn-group-vertical btn-group-xs">
+                <a href="#" class="btn btn-warning">Button 6</a>
+                <a href="#" class="btn btn-primary">Button 7</a>
+            </div>
+        </div>-->
+    <br />
+
+    <!--Nested button groups : To create a button group with a dropdown menu, nest button groups-->
+    <!--<div class="btn-group">
+            <a href="#" class="btn btn-danger">Button 1</a>
+            <a href="#" class="btn btn-default">Button 2</a>
+
+            <div class="btn-group">
+                <button data-toggle="dropdown" class="btn btn-primary dropdown-toggle">
+                    Dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Action 1</a></li>
+                    <li><a href="#">Action 2</a></li>
+                    <li><a href="#">Action 3</a></li>
+                </ul>
+            </div>
+        </div>-->
+    <br />
+
+    <!--Justified button elements (i.e <button>, <input type="button"> and <input type="submit">) 
+    button group : To create a justified button group of button elements use btn-group and btn-gro
+    up-justified classes. In addition you must also wrap each button in a <div> element with btn-gro
+    up class.-->
+    <!--<div class="btn-group btn-group-justified">
+            <div class="btn-group">
+                <button class="btn btn-danger">Button 1</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-default">Button 2</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-info">Button 3</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-primary">Button 4</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-success">Button 5</button>
+            </div>
+            <div class="btn-group">
+                <button class="btn btn-warning">Button 6</button>
+            </div>
+        </div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--Table classes-->
+    <!--<div class="table-responsive">
+    <table class="table table-bordered   table-striped table-hover table-condensed">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Email</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr class="active">
+            <td>1</td>
+            <td>John</td>
+            <td>Male</td>
+            <td>John@emailDomain.com</td>
+        </tr>
+        <tr class="danger">
+            <td>2</td>
+            <td>Mary</td>
+            <td>Femlae</td>
+            <td>mary@emailDomain.com</td>
+        </tr>
+        <tr class="info">
+            <td>3</td>
+            <td>Ben</td>
+            <td>Male</td>
+            <td>Ben@emailDomain.com</td>
+        </tr>
+        <tr class="success">
+            <td>4</td>
+            <td>Sara</td>
+            <td>Female</td>
+            <td>sara@emailDomain.com</td>
+        </tr>
+        <tr class="warning">
+            <td>5</td>
+            <td>Sam</td>
+            <td>Male</td>
+            <td>sam@emailDomain.com</td>
+        </tr>
+    </tbody>
+</table>
+</div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--Code Block-->
+    <!--            <p>To highlight text use <code>&lt;mark&gt;</code> tag </p>
+        <p>To underline text use <code>&lt;u&gt;</code> tag </p>
+        <p>For bold text use <code>&lt;strong&gt;</code> tag </p>
+        <pre>&lt;strong&gt;Bold Text&lt;/strong&gt;
+        &lt;u&gt;Underlined Text&lt;/u&gt;
+        &lt;mark&gt;Highlighted Text&lt;/mark&gt;
+        </pre>
+        <pre class="pre-scrollable">public class Program
+        {
+            public static void Main()
+            {
+                Customer customer1 = new Customer()
+                {
+                    ID = 101,
+                    Name = "Mark",
+                    Salary = 5000
+                };
+                Customer customer2 = new Customer()
+                {
+                    ID = 102,
+                    Name = "Pam",
+                    Salary = 7000
+                };
+                Customer customer3 = new Customer()
+                {
+                    ID = 104,
+                    Name = "Rob",
+                    Salary = 5500
+                };
+                Customer[] arrayCustomers = new Customer[2];
+                arrayCustomers[0] = customer1;
+                arrayCustomers[1] = customer2;
+       
+                List<customer> listCustomers = new List<customer>(2);
+                listCustomers.Add(customer1);
+                listCustomers.Add(customer2);
+                listCustomers.Add(customer3);
+                Customer cust = listCustomers[0];
+                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+                                   cust.ID, cust.Name, cust.Salary);
+                Console.WriteLine("--------------------------------");
+       
+                for (int i = 0; i < listCustomers.Count; i++)
+                {
+                    Customer customer = listCustomers[i];
+                    Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+                             customer.ID, customer.Name, customer.Salary);
+                }
+                Console.WriteLine("--------------------------------");
+       
+                foreach (Customer c in listCustomers)
+                {
+                    Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+                                        c.ID, c.Name, c.Salary);
+                }
+                Console.WriteLine("--------------------------------");
+       
+                listCustomers.Insert(1, customer3);
+                Console.WriteLine("ID = {0}, Name = {1}, Salary = {2}",
+                       listCustomers[1].ID, listCustomers[1].Name,
+                       listCustomers[1].Salary);
+                Console.WriteLine("--------------------------------");
+       
+                Console.WriteLine("Index of Customer3 object in the List = "
+                                   + listCustomers.IndexOf(customer3));
+                Console.WriteLine("--------------------------------");
+            }
+        }</pre>
+
+        var <var>fullName</var> = <var>firstName</var> + <var>lastName</var>;
+        <h4>Output</h4>
+        <samp>Hello world!</samp>
+         <h4>Visual Studio</h4>
+        <p>
+            Keyboard shorcut for commenting code
+            <kbd>CTRL</kbd> <kbd>K</kbd> and <kbd>CTRL</kbd> <kbd>C</kbd>
+        </p>
+        <p>
+            Keyboard shorcut for uncommenting code
+            <kbd>CTRL</kbd> <kbd>K</kbd> and <kbd>CTRL</kbd> <kbd>U</kbd>
+        </p>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--list grooup-->
+   <!--         <ul class="list-group">
+                <li class="list-group-item">India</li>
+                <li class="list-group-item">USA</li>
+                <li class="list-group-item">UK</li>
+                <li class="list-group-item">Australia<span class="badge">New</span></li>
+            </ul>
+
+            <div class="list-group">
+            <a href="http://dell.com" class="list-group-item">Dell</a>
+            <a href="http://google.com" class="list-group-item">Google</a>
+            <a href="http://microsoft.com" class="list-group-item">Microsoft</a>
+        </div>
+
+
+        <ul class="list-group">
+            <li class="list-group-item list-group-item-danger">India</li>
+            <li class="list-group-item list-group-item-info">USA</li>
+            <li class="list-group-item list-group-item-success">UK</li>
+            <li class="list-group-item list-group-item-warning">Australia</li>
+        </ul>
+        <ul class="list-group">
+            <li class="list-group-item disabled">Disabled Item</li>
+            <li class="list-group-item active">Active Item</li>
+            <li class="list-group-item">Other Item 1</li>
+            <li class="list-group-item">Other Item 2</li>
+        </ul>
+
+
+        <div class="list-group">
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">List Group Item 1 Heading</h4>
+                <p class="list-group-item-text">List Group Item 1 Text</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">List Group Item 2 Heading</h4>
+                <p class="list-group-item-text">List Group Item 2 Text</p>
+            </a>
+            <a href="#" class="list-group-item">
+                <h4 class="list-group-item-heading">List Group Item 3 Heading</h4>
+                <p class="list-group-item-text">List Group Item 3 Text</p>
+            </a>
+        </div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--blockquotes-->
+    <!--<blockquote class="blockquote-reverse">
+    <p>By failing to prepare, you are preparing to fail</p>
+    <footer>
+        This famous quote is by
+        <cite title="Benjamin Franklin">
+            Benjamin Franklin
+        </cite>
+    </footer>
+</blockquote>-->
+    
+    <!-------------------------------------------------------------------------------->
+
+    <!--paragraph-->
+    <!--            <p>
+            <u>This text will be underlined</u>
+        </p>
+        <p>
+            <s>This text will be striken through</s>
+        </p>
+        <p>
+            <mark>This text will be highlighted</mark>
+        </p>
+        <p>
+            <em>This text will be italicized</em>
+        </p>
+        <p>
+            <strong>This text will be in boold</strong>
+        </p>
+        <p>
+            This is <sub>subscript</sub> and this is <sup>superscript</sup>
+        </p>
+        <p class="text-left">Left aligned text.</p>
+    <p class="text-center">Center aligned text.</p>
+    <p class="text-right">Right aligned text.</p>
+    <p class="text-justify">
+        The text in this paragraph will be justified.
+        Bootstrap is a free, open-source and is the most popular HTML,
+        CSS, and JavaScript framework.
+    </p>
+    <p class="text-nowrap">
+        This text will not wrap and you will get a horizontal scrollbar
+        if there is no space on the screen to view.
+    </p>
+    <p class="text-lowercase">
+        All The Letters Will Be in Lowercase
+    </p>
+    <p class="text-uppercase">
+        All The Letters Will Be in Uppercase
+    </p>
+    <p class="text-capitalize">
+        First letter of every word will be capitalized
+    </p>
+    <p class="lead">
+        What is Bootstrap
+    </p>
+    <p>
+        Bootstrap is a free, open-source and is the most popular HTML,
+        CSS, and JavaScript framework
+    </p>
+    <abbr title="British Broadcasting Corporation">BBC</abbr>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--typ0grapy-->
+    <!--<h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <h4>Bootstrap</h4> is a free, open-source and is the most popular
+    HTML, CSS, and JavaScript framework developed by twitter for creating responsive
+    web applications. It includes HTML and CSS based design templates for common user
+    interface components like Buttons, Dropdowns, Typography, Tabs, Forms, Tables,
+    Navigations, Alerts, Modals, Accordion, Carousel etc. along with optional JavaScript
+    extensions. Bootstrap framework is based on open standards - HTML, CSS and
+    JavaScript. This means bootstrap can be used with any server side technology and a
+    ny platform. You can use it with any web application built with any server side
+    technology like ASP.NET, JAVA, PHP etc.
+
+    <span class="h4">Bootstrap</span> is a free, open-source and is the most popular
+HTML, CSS, and JavaScript framework developed by twitter for creating responsive
+web applications. It includes HTML and CSS based design templates for common
+user interface components like Buttons, Dropdowns, Typography, Tabs, Forms,
+Tables, Navigations, Alerts, Modals, Accordion, Carousel etc. along with
+optional JavaScript extensions. Bootstrap framework is based on open standards
+- HTML, CSS and JavaScript. This means bootstrap can be used with any server
+side technology and any platform. You can use it with any web application built
+with any server side technology like ASP.NET, JAVA, PHP etc.
+
+
+<h1>Main Heading 1 <small>Small Heading 1</small></h1>
+<h2>Main Heading 2 <small>Small Heading 2</small></h2>
+<h3>Main Heading 3 <small>Small Heading 3</small></h3>
+<h4>Main Heading 4 <small>Small Heading 4</small></h4>
+<h5>Main Heading 5 <small>Small Heading 5</small></h5>
+<h6>Main Heading 6 <small>Small Heading 6</small></h6>
+
+<h1>Main Heading 1 <span class="small">Small Heading 1</span></h1>
+<h2>Main Heading 2 <span class="small">Small Heading 2</span></h2>
+<h3>Main Heading 3 <span class="small">Small Heading 3</span></h3>
+<h4>Main Heading 4 <span class="small">Small Heading 4</span></h4>
+<h5>Main Heading 5 <span class="small">Small Heading 5</span></h5>
+<h6>Main Heading 6 <span class="small">Small Heading 6</span></h6>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--responsive utility class-->
+    <!--<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+            <div class="customDiv">ALL Screens</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 hidden-xs">
+            <div class="customDiv">Medium, Large and Small</div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 visible-lg visible-md ">
+            <div class="customDiv">Medium and Large </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 visible-lg">
+            <div class="customDiv">Large</div>
+        </div>
+    </div>
+    </div>
+    <div class="container">
+            <div class="row">
+                <div class="col-xs-12 hidden-print">
+                    <div class="customDiv">Visible on browser NOT when printing</div>
+                </div>
+                <div class="col-xs-12 visible-print">
+                    <div class="customDiv">Visible when printing</div>
+                </div>
+            </div>
+        </div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--image galllary-->
+    <!--<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2>Bootstrap Image Gallery</h2>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo1.jpg" class="thumbnail">
+                <p>lamborgini 1</p>
+                <img src="Images/lambo1.jpg" />
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo2.jpg" class="thumbnail">
+                <p>lamborgini 2</p>
+                <img src="Images/lambo2.jpg" />
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo3.jpg" class="thumbnail">
+                <p>lamborgini 3</p>
+                <img src="Images/lambo3.jpg" />
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo4.jpg" class="thumbnail">
+                <p>lamborgini 4</p>
+                <img src="Images/lambo4.jpg" />
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo5.jpg" class="thumbnail">
+                <p>lamborgini 5</p>
+                <img src="Images/lambo5.jpg" />
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo6.jpg" class="thumbnail">
+                <p>lamborgini 6</p>
+                <img src="Images/lambo6.jpg />
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo7.jpg" class="thumbnail">
+                <p>lamborgini 7</p>
+                <img src="Images/lambo7.jpg" />
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6">
+            <a href="Images/lambo8.jpg" class="thumbnail">
+                <p>lamborgini 8</p>
+                <img src="Images/lambo8.jpg" />
+            </a>
+        </div>
+    </div>
+</div>-->
+
+    <!-------------------------------------------------------------------------------->
+
+    <!--nested Rows and columns-->
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-xs-3">
+                <div class="row">
+                     <div class="col-xs-12">
+                        <div class="sidebarContent">Side Bar 1</div>
+                     </div>
+                </div>
+                <div class="row">
+                     <div class="col-xs-12">
+                        <div class="sidebarContent">Side Bar 2</div>
+                     </div>
+                </div>
+            </div>
+            <div class="col-xs-9">
+                <div class="mainContent">Main Content Area</div>
+            </div>
+        </div>
+    </div>-->
+    
+    <!-------------------------------------------------------------------------------->
+
+    <!--to understand the image in columns-->
+    <!--<div class="container">
+        <div class="row">
+           <img src="Images/back.jpg" class="col-md-4 col-md-offset-4 img-responsive img-circle" />
+      </div>
+     <div class="row">
+            <div class="col-md-4 " >
+                <div class="customDiv">Column 1</div>
+             </div>
+            <div class="col-md-4">
+                <div class="customDiv">Column 2</div>
+             </div>
+             <div class="col-md-4">
+                <div class="customDiv">Columns 3</div>
+             </div>
+             
+      </div>
+    </div>-->
+    
+    <!-------------------------------------------------------------------------------->
+    
+    <!--TO UNDERSTAND offset concept-->
+     <!--<div class="container">
+        <div class="row">
+            <div class="col-md-3 col-md-offset-3" >
+                <div class="customDiv">Column 1</div>
+             </div>
+            <div class="col-md-3 ">
+                <div class="customDiv">Column 2</div>
+             </div>
+            
+      </div>
+     <div class="row">
+            <div class="col-md-3 " >
+                <div class="customDiv">Column 1</div>
+             </div>
+            <div class="col-md-3 ">
+                <div class="customDiv">Column 2</div>
+             </div>
+             <div class="col-md-3">
+                <div class="customDiv">Columns 3</div>
+             </div>
+             <div class="col-md-3">
+                <div class="customDiv">Column 4</div>
+             </div>
+      </div>
+    </div>-->
+    
+    <!-------------------------------------------------------------------------------->    
+    
+    <!--to understand the 12 columns-->
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-md-3 col-lg-9 col-sm-6" >
+                <div class="customDiv">Column 1</div>
+             </div>
+            <div class="col-md-3 col-lg-3 col-sm-6">
+                <div class="customDiv">Column 2</div>
+             </div>
+             <div class="col-md-3 col-lg-9 col-sm-6">
+                <div class="customDiv">Columns 3</div>
+             </div>
+             <div class="col-md-3 col-lg-3 col-sm-6">
+                <div class="customDiv">Column 4</div>
+             </div>
+      </div>
+    </div>-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" ></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#btnShowModal').click(function () {
+                $('#loginModal').modal('show');
+            });
+            $('#btnHideModal').click(function () {
+                $('#loginModal').modal('hide');
+            });
+             $('#loginModal').on('show.bs.modal', function () {
+                alert('Modal is about to be displayed');
+            });
+            $('#loginModal').on('shown.bs.modal', function () {
+                alert('Modal is displayed');
+            });
+
+            $('#loginModal').on('hide.bs.modal', function () {
+                alert('Modal is about to be hidden');
+            });
+            $('#loginModal').on('hidden.bs.modal', function () {
+                alert('Modal is hidden');
+        });
+       
+    </script>
+
+  </body>
+</html>

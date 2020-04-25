@@ -1,0 +1,89 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap tutorial for begineers</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CustomStyles.css" rel="stylesheet" />
+    <style type="text/css">
+        body {
+            position: relative;
+        }
+        .affix
+        {
+            top:20px;
+            }
+         
+    </style>
+</head>
+<body>
+    <div class="container>"
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="jumbotron">
+                    <h1>Bootstrap Affix example</h1>
+                </div>
+            </div>
+
+            <div class="col-xs-3">
+                <nav id="mainNavbar">
+                    <ul class="nav nav-pills nav-stacked" data-spy="affix" data-offset-top="200">
+                        <li class="active"><a href="#divlambo1">Lambo1</a></li>
+                        <li><a href="#divlambo1">Lambo2</a></li>
+                        <li><a href="#divlambo1">Lambo3</a></li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                Lamborgini <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#divlambo1">Lambo4</a></li>
+                                <li><a href="#divlambo1">Lambo5</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </nav>
+            </div>
+            <div class="col-xs-9">
+                <div id="divlambo1">
+                    <h1>lambo1</h1>
+                    <img src="Images/lambo1.jpg" class="img-responsive" />
+                </div>
+
+                <div id="divlambo2">
+                    <h1>lambo2</h1>
+                    <img src="Images/lambo2.jpg" class="img-responsive" />
+                </div>
+
+                <div id="divlambo3">
+                    <h1>lambo3</h1>
+                    <img src="Images/lambo3.jpg" class="img-responsive" />
+                </div>
+
+                <div id="divlambo4">
+                    <h1>lambo4</h1>
+                    <img src="Images/lambo4.jpg" class="img-responsive" />
+                </div>
+
+                <div id="divlambo5">
+                    <h1>lambo5</h1>
+                    <img src="Images/lambo5.jpg" class="img-responsive" />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('body').scrollspy({
+                target: '#mainNavbar',
+                offset: 10
+            });
+        });
+    </script>
+</body>
+</html>

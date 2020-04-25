@@ -1,0 +1,134 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap tutorial for begineers</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <br />
+    <!---------------------------------------------------------------------------------->
+     <!--advace acoordian-->
+
+    <!--<div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+                
+                 <div class="well">
+                    <button class="btn btn-primary" id="btnExpandAll">
+                        Expand All
+                    </button>
+                    <button class="btn btn-primary" id="btnCollapseAll">
+                        Collapse All
+                    </button>
+                </div>
+                <div id="accordion" class="panel-group">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#panelBodyOne" data-toggle="collapse"
+                                   data-parent="#accordion">
+                                    <span class="glyphicon glyphicon-minus-sign"></span>
+                                    OUTPUT 1
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="panelBodyOne" class="panel-collapse collapse in">
+                            <div class="panel-body">
+                                <img class="img-responsive" src="Images/lambo1.jpg"
+                                     alt="desert" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#panelBodyTwo" data-toggle="collapse"
+                                   data-parent="#accordion">
+                                    <span class="glyphicon glyphicon-plus-sign"></span>
+                                    OUTPUT 2
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="panelBodyTwo" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <img class="img-responsive" src="Images/lambo3.jpg"
+                                     alt="penguins" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <h4 class="panel-title">
+                                <a href="#panelBodyThree" data-toggle="collapse"
+                                   data-parent="#accordion">
+                                    <span class="glyphicon glyphicon-plus-sign"></span>
+                                    OUTPUT 3
+                                </a>
+                            </h4>
+                        </div>
+                        <div id="panelBodyThree" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <img class="img-responsive" src="Images/lambo5.jpg"
+                                     alt="jellyfish" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>-->
+    <!---------------------------------------------------------------------------------->
+
+    <!--Tooltip-->
+    <br />
+    <br />
+    <br />
+    <button class="btn btn-primary" title="Bootstrap tooltip"
+            data-toggle="tooltip">
+        Button
+    </button>
+
+    <!--custommized tooltip-->
+    <button class="btn btn-primary" title="Bootstrap tooltip"
+            data-toggle="tooltip" data-placement="right">
+        Button
+    </button>
+    <!---------------------------------------------------------------------------------->
+ 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip({
+                title:"<h3>Help</h3><p>Click to submit the page</p>",
+                placement: 'right',
+                animation: true,
+                delay: { show: 500, hide: 800 },
+                html: true
+            });
+        });
+        $('.collapse').on('shown.bs.collapse', function () {
+            $(this).parent().find('.glyphicon-plus-sign')
+                   .removeClass('glyphicon-plus-sign')
+                   .addClass('glyphicon-minus-sign');
+        }).on('hidden.bs.collapse', function () {
+            $(this).parent().find(".glyphicon-minus-sign")
+                   .removeClass("glyphicon-minus-sign")
+                   .addClass("glyphicon-plus-sign");
+        });
+
+        $('#btnExpandAll').click(function () {
+            $('.panel-collapse.collapse').collapse('show');
+        });
+
+        $('#btnCollapseAll').click(function () {
+            $('.panel-collapse.collapse.in').collapse('hide');
+        });
+    </script>
+</body>
+</html>

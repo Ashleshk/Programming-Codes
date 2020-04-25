@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap tutorial for begineers</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <br />
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#homeTab" data-toggle="tab">Home</a>
+                    </li>
+                    <li>
+                        <a href="#contactTab" data-toggle="tab">Contact</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" data-toggle="dropdown" class="dropdown-toggle">
+                            Locations <b class="caret"></b>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#indiaTab" data-toggle="tab">India</a></li>
+                            <li><a href="#usaTab" data-toggle="tab">USA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div id="homeTab" class="tab-pane  fade in active">
+                        <h3>Home</h3>
+                        <p>Home page content</p>
+                    </div>
+                    <div id="contactTab" class="tab-pane fade">
+                        <h3>Contact</h3>
+                        <p>Contact page content</p>
+                    </div>
+                    <div id="indiaTab" class="tab-pane fade">
+                        <h3>India</h3>
+                        <p>India Location Details</p>
+                    </div>
+                    <div id="usaTab" class="tab-pane fade">
+                        <h3>USA</h3>
+                        <p>USA Location Details</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

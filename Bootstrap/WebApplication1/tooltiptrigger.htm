@@ -1,0 +1,110 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap tutorial for begineers</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<!------------------------------------------------------------------------------------------>
+   
+
+
+<!------------------------------------------------------------------------------------------>
+        <!--alert-->
+        <!--<button id="btnSubmit" class="btn btn-primary">
+            Submit
+        </button>
+
+        <br /><br />
+
+        <div id="myAlert" class="alert alert-danger collapse">
+            <a id="linkClose" href="#" class="close">&times;</a>
+            <strong>Error!</strong> There is a problem submitting your form
+        </div>-->
+<!------------------------------------------------------------------------------------------>
+  
+  <!-- toot tip maethods-->
+  
+  <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+            <br /><br />
+
+            Name:  <input type="text" id="txtName"  data-toggle="tooltip"
+                title="Your full name" />
+            <span class="glyphicon glyphicon-info-sign"  id="infoIcon"></span>
+            </div>
+        </div>
+  </div>
+<!------------------------------------------------------------------------------------------>
+ 
+ <!--popover -->
+ 
+ <div class="container">
+        <div class="row">
+            <div class="col-xs-6">
+            <br /><br />
+                <button class="btn btn-primary" id="btnPopover" title="Popover Title"
+                        data-content="Popover content. Popover content. Popover content."
+                        data-toggle="popover"
+                        data-trigger="focus">
+                    Popover-focus Example
+                </button>
+            <br /><br />
+                <button class="btn btn-primary" id="Button1" title="Popover Title"
+                        data-content="Popover content. Popover content. Popover content."
+                        data-toggle="popover"
+                        data-trigger="hover">
+                    Popover-hover Example
+                </button>
+           <br />
+           <br />
+            <button class="btn btn-primary" id="Button2" title="Penguins"
+                    data-content="<img class='img-responsive' src='Images/lambo1.jpg'>"
+                    data-toggle="popover"
+                    data-html="true"
+                    data-placement="bottom"
+                    data-trigger="hover">
+                lambo1
+            </button>
+            </div>
+        </div>
+  </div>
+
+<!------------------------------------------------------------------------------------------>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+    </script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#txtName').tooltip({
+                trigger: 'manual'
+            });
+
+            $('#infoIcon').click(function () {
+                $('#txtName').tooltip('toggle');
+            });
+
+            $('#btnSubmit').click(function () {
+                $('#myAlert').show('fade');
+
+                setTimeout(function () {
+                    $('#myAlert').hide('fade');
+                }, 2000);
+
+            });
+
+            $('#linkClose').click(function () {
+                $('#myAlert').hide('fade');
+            });
+
+
+            $('#btnPopover').popover();
+        });
+    </script>
+
+</body>
+</html>
