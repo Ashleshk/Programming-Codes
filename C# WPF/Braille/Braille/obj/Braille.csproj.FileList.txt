@@ -1,0 +1,8 @@
+bin\Debug\Braille.exe
+bin\Debug\Braille.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\Braille.Form1.resources
+obj\Debug\Braille.Properties.Resources.resources
+obj\Debug\Braille.csproj.GenerateResource.Cache
+obj\Debug\Braille.exe
+obj\Debug\Braille.pdb

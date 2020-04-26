@@ -1,0 +1,7 @@
+C:\Users\lenovo\Downloads\Braille\Braille\Braille\obj\Debug\Braille.exe
+C:\Users\lenovo\Downloads\Braille\Braille\Braille\obj\Debug\Braille.pdb
+C:\Users\lenovo\Downloads\Braille\Braille\Braille\bin\Debug\Braille.exe
+C:\Users\lenovo\Downloads\Braille\Braille\Braille\bin\Debug\Braille.pdb
+C:\Users\lenovo\Downloads\Braille\Braille\Braille\obj\Debug\Braille.Form1.resources
+C:\Users\lenovo\Downloads\Braille\Braille\Braille\obj\Debug\Braille.Properties.Resources.resources
+C:\Users\lenovo\Downloads\Braille\Braille\Braille\obj\Debug\Braille.csproj.GenerateResource.Cache

@@ -1,0 +1,6 @@
+backup
+.vs
+_UpgradeReport_files
+*.suo
+fd.txt
+UpgradeLog.XML
