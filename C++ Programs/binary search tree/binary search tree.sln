@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "binary search tree", "binary search tree\binary search tree.vcxproj", "{54A1A6D1-32A4-4162-ABF6-089E0F0F2F18}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54A1A6D1-32A4-4162-ABF6-089E0F0F2F18}.Debug|Win32.ActiveCfg = Debug|Win32
+		{54A1A6D1-32A4-4162-ABF6-089E0F0F2F18}.Debug|Win32.Build.0 = Debug|Win32
+		{54A1A6D1-32A4-4162-ABF6-089E0F0F2F18}.Release|Win32.ActiveCfg = Release|Win32
+		{54A1A6D1-32A4-4162-ABF6-089E0F0F2F18}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
