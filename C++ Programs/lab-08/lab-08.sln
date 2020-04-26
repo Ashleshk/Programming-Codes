@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lab-08", "lab-08\lab-08.vcxproj", "{947DB337-7E00-4E31-8923-4B7BD5D0A643}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "console iand o", "console iand o\console iand o.vcxproj", "{56C27B22-7F4C-4156-98AF-FB4E9B17C1FA}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "overloading equalto", "overloading equalto\overloading equalto.vcxproj", "{DBD6F166-C6C6-4C6A-B407-3534E8620997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{947DB337-7E00-4E31-8923-4B7BD5D0A643}.Debug|Win32.ActiveCfg = Debug|Win32
+		{947DB337-7E00-4E31-8923-4B7BD5D0A643}.Debug|Win32.Build.0 = Debug|Win32
+		{947DB337-7E00-4E31-8923-4B7BD5D0A643}.Release|Win32.ActiveCfg = Release|Win32
+		{947DB337-7E00-4E31-8923-4B7BD5D0A643}.Release|Win32.Build.0 = Release|Win32
+		{56C27B22-7F4C-4156-98AF-FB4E9B17C1FA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{56C27B22-7F4C-4156-98AF-FB4E9B17C1FA}.Debug|Win32.Build.0 = Debug|Win32
+		{56C27B22-7F4C-4156-98AF-FB4E9B17C1FA}.Release|Win32.ActiveCfg = Release|Win32
+		{56C27B22-7F4C-4156-98AF-FB4E9B17C1FA}.Release|Win32.Build.0 = Release|Win32
+		{DBD6F166-C6C6-4C6A-B407-3534E8620997}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DBD6F166-C6C6-4C6A-B407-3534E8620997}.Debug|Win32.Build.0 = Debug|Win32
+		{DBD6F166-C6C6-4C6A-B407-3534E8620997}.Release|Win32.ActiveCfg = Release|Win32
+		{DBD6F166-C6C6-4C6A-B407-3534E8620997}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
