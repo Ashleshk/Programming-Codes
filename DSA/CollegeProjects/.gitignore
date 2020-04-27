@@ -1,0 +1,8 @@
+backup
+.vs
+*.suo
+Debug
+*.sdf
+ipch
+.cproject
+.project
