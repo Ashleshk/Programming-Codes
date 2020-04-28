@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="I:\PROGRAM\JAVA PROGRAMS\Hello\IntermediateJAVA"/>
+		<item value="I:\PROGRAM\JAVA PROGRAMS"/>
+		<item value="I:\PROGRAM\JAVA PROGRAMS\programINhome2"/>
+		<item value="I:\PROGRAM\JAVA PROGRAMS\ProgramInHome\ProgramingINJavaBook"/>
+		<item value="I:\PROGRAM\JAVA PROGRAMS\ProgramInHome\ProgramingINJavaBook\src\com"/>
+	</list>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="ChooseWorkspaceDialogSettings">
+		<item value="160" key="DIALOG_X_ORIGIN"/>
+		<item value="226" key="DIALOG_Y_ORIGIN"/>
+	</section>
+</section>
