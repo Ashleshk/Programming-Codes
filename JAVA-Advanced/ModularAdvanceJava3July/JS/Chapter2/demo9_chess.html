@@ -1,0 +1,66 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <style type="text/css">
+  table,td
+  {
+	border:2px solid purple;
+	border-collapse:collapse;
+  }
+  table
+  {
+	width:400px;
+  }
+  td
+  {
+	height:50px;
+  }
+  </style>
+ </HEAD>
+
+ <BODY>
+  <script type="text/javascript">
+	var i;
+	var j;
+	document.write("<table>");
+	for(i=1;i<=8;i++)
+	{
+		document.write("<tr>");
+		if(i%2==0)
+		{
+			for(j=1;j<=8;j++)
+			{
+				if(j%2==0)
+				{
+					document.write("<td style='background:black'></td>");
+				}
+				else
+				{
+					document.write("<td style='background:white'></td>");
+				}
+			}
+		}
+		else
+		{
+			for(j=1;j<=8;j++)
+			{
+				if(j%2==0)
+				{
+					document.write("<td style='background:white'></td>");
+				}
+				else
+				{
+					document.write("<td style='background:black'></td>");
+				}
+			}
+		}
+		document.write("</tr>");
+	}
+  </script>
+ </BODY>
+</HTML>

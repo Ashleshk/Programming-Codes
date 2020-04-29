@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+   <style type = "text/css">
+   body
+   {
+		background-color:gainsboro;
+   }
+   i
+   {
+		color:red;text-decoration:blink
+   }
+   b
+   {
+		color:blue;font-size:25;
+   }
+  </style>
+
+  <script type="text/javascript">
+  function validation()
+  {
+		var x = document.getElementById("contact_name").value;
+		var str = /^[A-Za-z]{2,20}$/;
+		var x1 = document.getElementById("user_name").value;
+		var str1 = /^[A-Za-z]{2,20}$/;
+		var x2 = document.getElementById("pw").value;
+		var x3 = document.getElementById("pw1").value;
+		var str2 = /^[a-zA-Z0-9]{6,10}$/;
+		var x4 = document.getElementById("email").value;
+		var str3 = /^[A-Za-z0-9._]+\@[a-zA-Z0-9]+\.([a-z]{2,4})$/;
+		if(x=="")
+		{
+			document.getElementById("err1").innerHTML = "Plz Enter Your Name";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err1").innerHTML = "";
+		}
+		if(!x.match(str))
+		{
+			document.getElementById("err1").innerHTML = "It should contain only letters from a-z or A-Z and atlest 2 or atmost 20 characters";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err1").innerHTML = "";
+		}
+		
+		if(x1=="")
+		{
+			document.getElementById("err2").innerHTML = "Plz Enter User Name";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err2").innerHTML = "";
+		}
+		if(!x1.match(str1))
+		{
+			document.getElementById("err2").innerHTML = "It should contain only letters from a-z or A-Z and atlest 2 or atmost 20 characters";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err2").innerHTML = "";
+		}
+		
+		if(x2=="")
+		{
+			document.getElementById("err3").innerHTML = "Plz Enter Password";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err3").innerHTML = "";
+		}
+		if(!x2.match(str2))
+		{
+			document.getElementById("err3").innerHTML = "Your Password should contain letters from a-z or A-Z or digits 0-9 and it should contain atleast six characters";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err3").innerHTML = "";
+		}
+		/*if(x3=="")
+		{
+			document.getElementById("err4").innerHTML = "Plz re-enter same password here";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err4").innerHTML = "";
+		}*/
+		if(x3!=x2)
+		{
+			document.getElementById("err4").innerHTML = "Password is not matching";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err4").innerHTML = "";
+		}
+		if(x4=="")
+		{
+			document.getElementById("err5").innerHTML = "Plz enter e-mail address";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err5").innerHTML = "";
+		}
+		if(!x4.match(str3))
+		{
+			document.getElementById("err5").innerHTML = "It should be like this prashant14.deshpande@gmail.com";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err5").innerHTML = "";
+		}
+		if((document.contact_form.gender[0].checked==false) && (document.contact_form.gender[1].checked==false))
+		{
+			document.getElementById("err6").innerHTML = "Plz select your gender";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err6").innerHTML = "";
+		}
+		if(document.contact_form.age.selectedIndex==0)
+		{
+			document.getElementById("err7").innerHTML = "Plz select your age group";
+			return false;
+		}
+		else
+		{
+			document.getElementById("err7").innerHTML = "";
+		}
+		if(document.contact_form.terms.checked==false)
+		{
+			document.getElementById("err8").innerHTML = "Plz check above checkbox otherwise you will not be able to create new user account";
+			return false;
+		} 
+		else
+		{
+			document.getElementById("err8").innerHTML = "";
+		}
+  }
+  </script>
+ </HEAD>
+
+ <BODY>
+  <form name="contact_form" action="" method="post" onsubmit="return validation()">
+	<b> Account Registration Form: </b><br /><br />
+	Your Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" name="contact_name" id="contact_name"/><br />
+	<i id="err1"></i><br /><br />
+	User Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" name="user_name" id="user_name"/><br />
+	<i id="err2"></i><br /><br />
+	Enter Password: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="password" name="password1" id="pw" /><br />
+	<i id="err3"></i><br /><br />
+	Confirm Password: &nbsp;&nbsp;
+	<input type="password" name="password2" id="pw1" /><br />
+	<i id="err4"></i><br /><br />	
+	E_mail Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<input type="text" name="email" id="email" /><br />
+	<i id="err5"></i><br /><br />
+	Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	Male<input type="radio" name="gender" />&nbsp;&nbsp;&nbsp;&nbsp;
+	Female<input type="radio" name="gender" /><br />
+	<i id="err6"></i><br /><br />
+	Age: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	<select name="age">
+		<option value="select" selected="selected">Select</option>
+		<option value="0-10">0-10</option>
+		<option value="10-20">10-20</option>
+		<option value="20-30">20-30</option>
+		<option value="30-40">30-40</option>
+	</select><br /><br />
+	<i id="err7"></i><br /><br />
+	Agree to terms and conditions: &nbsp;&nbsp;&nbsp;
+	<input type="checkbox" name="terms" /><br />
+	<i id="err8"></i><br /><br />
+	<input type="submit" value="Done!" />
+  </form>
+ </BODY>
+</HTML>

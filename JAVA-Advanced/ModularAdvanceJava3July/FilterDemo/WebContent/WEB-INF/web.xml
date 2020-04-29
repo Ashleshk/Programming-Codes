@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" id="WebApp_ID" version="2.5">
+  <display-name>FilterDemo</display-name>
+  
+  <servlet>
+    <description></description>
+    <display-name>LoginServlet</display-name>
+    <servlet-name>LoginServlet</servlet-name>
+    <servlet-class>com.seed.Servlets.LoginServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginServlet</servlet-name>
+    <url-pattern>/LoginServlet</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <display-name>LoginFilter</display-name>
+    <filter-name>LoginFilter</filter-name>
+    <filter-class>com.seed.MyFilters.LoginFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>LoginFilter</filter-name>
+    <url-pattern>/LoginFilter</url-pattern>
+    <servlet-name>LoginServlet</servlet-name>
+  </filter-mapping>
+  <context-param>
+    <param-name>Driver</param-name>
+    <param-value>oracle.jdbc.driver.OracleDriver</param-value>
+  </context-param>
+  <context-param>
+    <param-name>URL</param-name>
+    <param-value>jdbc:oracle:thin:@172.16.10.2:1521:orcl</param-value>
+  </context-param>
+  <context-param>
+    <param-name>Username</param-name>
+    <param-value>java</param-value>
+  </context-param>
+  <context-param>
+    <param-name>Password</param-name>
+    <param-value>java</param-value>
+  </context-param>
+  
+  <listener>
+    <listener-class>com.seed.MyEventListeners.ServletContextListenerDemo</listener-class>
+  </listener>
+  
+  <filter>
+    <display-name>TestFilter</display-name>
+    <filter-name>TestFilter</filter-name>
+    <filter-class>com.seed.MyFilters.TestFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>TestFilter</filter-name>
+    <url-pattern>/TestFilter</url-pattern>
+  </filter-mapping>
+</web-app>

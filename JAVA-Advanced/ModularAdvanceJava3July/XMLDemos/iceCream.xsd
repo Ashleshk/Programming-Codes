@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/helloschema"
+ xmlns:tns="http://www.example.org/helloschema" 
+elementFormDefault="qualified">
+
+<complexType name="iceCreamStore">
+<sequence>
+<element name="iceCreamS" type="tns:iceCream" >
+</element>
+</sequence>
+</complexType>
+
+
+<complexType name="iceCream">
+<sequence>
+<element name = "flavour" type="string"></element>
+<element name = "price" type="double"></element>
+</sequence>
+<attribute name = "icId" type="ID" use= "required"></attribute>
+</complexType>
+
+<element name="glabalIceCream" type="tns:iceCreamStore"></element>
+
+</schema>

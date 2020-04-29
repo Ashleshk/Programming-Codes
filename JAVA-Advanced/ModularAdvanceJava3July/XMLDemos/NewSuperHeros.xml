@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE superheroes SYSTEM "superHeroDtd.dtd" >
+<superheroes>
+  <superhero sid="idvalue0">
+    <name>name</name>
+    <specialPower>specialPower</specialPower>
+  </superhero>
+</superheroes>

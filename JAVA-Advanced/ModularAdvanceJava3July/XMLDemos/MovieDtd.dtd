@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT MovieDetail(Movie+)>
+<!ELEMENT Movie (Name,Director)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Director (#PCDATA)>
+

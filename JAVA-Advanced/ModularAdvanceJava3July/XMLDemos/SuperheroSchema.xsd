@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" 
+targetNamespace="http://www.example.org/SuperheroSchema"
+xmlns:tns="http://www.example.org/SuperheroSchema" 
+elementFormDefault="qualified">
+
+<complexType name="superherosType">
+<sequence>
+<element name = "superhero" type="tns:superherotype" maxOccurs="3" minOccurs="1">
+</element>
+</sequence>
+</complexType>
+
+<complexType name="superherotype">
+<sequence>
+<element name= "name" type="string"></element>
+<element name= "specialPower" type="string"></element>
+</sequence>
+<attribute name = "sid" type="ID" use = "required"></attribute>
+</complexType>
+
+<element name="globalsuperheroes" type="tns:superherosType"></element>
+</schema>

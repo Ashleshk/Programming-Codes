@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT superheroes (superhero+)>
+<!ELEMENT superhero (name, specialPower)>
+<!ELEMENT name (#PCDATA)><!ELEMENT specialPower (#PCDATA)>
+<!ATTLIST superhero sid ID #REQUIRED>
+<!ATTLIST superhero speciality  (CryptonionSkinCell|BatMobile) "BatMobile">

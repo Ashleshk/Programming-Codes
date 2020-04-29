@@ -1,0 +1,22 @@
+<html>
+	<script type='text/javascript'>
+		function fun1()
+		{
+			document.getElementById('div1').innerHTML = '';	
+			var arr = new Array('Sunset.jpg','Winter.jpg');
+			for(var i=0;i<arr.length;i++)
+			{
+				var img = document.createElement('img');
+				img.setAttribute('src',arr[i]);
+				img.setAttribute('height','100');
+				img.setAttribute('width','100');
+				document.getElementById('div1').appendChild(img);
+			}
+			
+		}
+	</script>
+	<input type='button' value='show images' onclick='fun1()'>
+	<div id='div1'>
+		
+	</div>
+</html>

@@ -1,0 +1,10 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>1.1</jsp-version>
+	<tag>
+		<name>iterate</name>
+		<tag-class>com.seed.web.tag.CustomTagHandler</tag-class>
+		<body-content>JSP</body-content>
+	</tag>
+
+</taglib>

@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+  <style type="text/css">
+	table,td,th
+	{
+		border:2px solid red;
+		border-collapse:collapse;
+	}
+	tr
+	{
+		height:30px;
+	}
+	.col1
+	{
+		text-align:left;
+		width:120px;
+	}
+	.col2
+	{
+		color:red;
+		font-family:"arial";
+		width:200px;
+	}
+	.div1
+	{
+		margin:30px 300px;
+	}
+
+  </style>
+  <script language="javascript">
+	var stuName = prompt("Enter Student Name");
+	var markSub1 = parseInt(prompt("Enter Marks for Sub1"));
+	var markSub2 = parseInt(prompt("Enter Marks for Sub2"));
+	var markSub3 = parseInt(prompt("Enter Marks for Sub3"));
+	function Display()
+	{
+		document.getElementById("id1").innerHTML = stuName;
+		document.getElementById("id2").innerHTML = markSub1;
+		document.getElementById("id3").innerHTML = markSub2;
+		document.getElementById("id4").innerHTML = markSub3;
+	}
+	function calTotal()
+	{
+		document.getElementById("id5").innerHTML = markSub1 + markSub2 + markSub3;
+		return (markSub1 + markSub2 + markSub3);
+	}
+
+	function calPercentage()
+	{
+		var per = calTotal() / 3;
+		document.getElementById("id6").innerHTML  = per;
+		return per;
+	}
+
+	function calGrade()
+	{
+		var grade = calPercentage();
+		if(grade>=75)
+		{
+			document.getElementById("id7").innerHTML  = "Distinction";
+		}
+		else if(grade>=60&&grade<75)
+		{
+			document.getElementById("id7").innerHTML  = "A+";
+		}
+		else if(grade>=50&&grade<60)
+		{
+			document.getElementById("id7").innerHTML  = "A";
+		}
+		else if(grade>=40&&grade<50)
+		{
+			document.getElementById("id7").innerHTML  = "B";
+		}
+		else
+		{
+			document.getElementById("id7").innerHTML  = "Fail";
+		}
+	}
+
+
+  </script>
+ </HEAD>
+
+ <BODY onload="Display()">
+  <p style="color:blue;font-size:20px;margin:5px 430px;"><u>Student Info</u></p>
+  <div class="div1">
+  <table>
+	<tr>
+		<th class="col1">Student Name</th>
+		<td class="col2" id="id1"></td>
+	</tr>
+	<tr>
+		<th class="col1">Sub1 Marks</th>
+		<td class="col2" id="id2"></td>
+	</tr>
+	<tr>
+		<th class="col1">Sub2 Mark</th>
+		<td class="col2" id="id3"></td>
+	</tr>
+	<tr>
+		<th class="col1">Sub3 Marks</th>
+		<td class="col2" id="id4"></td>
+	</tr>
+	<tr>
+		<th class="col1">Total Marks</th>
+		<td class="col2" id="id5" onclick="calTotal()"></td>
+	</tr>
+	<tr>
+		<th class="col1">Percentage</th>
+		<td class="col2" id="id6" onclick="calPercentage()"></td>
+	</tr>
+	<tr>
+		<th class="col1">Grade</th>
+		<td class="col2" id="id7" onclick="calGrade()"></td>
+	</tr>
+  </table>
+  </div>
+ </BODY>
+</HTML>

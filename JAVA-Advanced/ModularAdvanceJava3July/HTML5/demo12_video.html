@@ -1,0 +1,52 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+ <HEAD>
+  <TITLE> New Document </TITLE>
+  <META NAME="Generator" CONTENT="EditPlus">
+  <META NAME="Author" CONTENT="">
+  <META NAME="Keywords" CONTENT="">
+  <META NAME="Description" CONTENT="">
+ </HEAD>
+
+ <body> 
+
+<div style="text-align:center"> 
+  <button onclick="playPause()">Play/Pause</button> 
+  <button onclick="makeBig()">Big</button>
+  <button onclick="makeSmall()">Small</button>
+  <button onclick="makeNormal()">Normal</button>
+  <br /> 
+  <video id="video1" width='420' autoplay='autoplay' loop='loop' controls='controls'>
+    <source src="video1.mp4" type="video/mp4"/>
+  </video>
+</div> 
+
+<script type="text/javascript"> 
+	var myVideo=document.getElementById("video1"); 
+
+	function playPause()
+	{	 
+		if (myVideo.paused) 
+			myVideo.play(); 
+		else 
+			myVideo.pause(); 
+	} 
+
+	function makeBig()
+	{ 
+		myVideo.width=560; 
+	} 
+
+	function makeSmall()
+	{ 
+		myVideo.width=320; 
+	} 
+
+	function makeNormal()
+	{ 
+		myVideo.width=420; 
+	} 
+
+</script> 
+</body> 
+</HTML>

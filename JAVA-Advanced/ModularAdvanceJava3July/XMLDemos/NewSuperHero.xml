@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:globalsuperheroes xmlns:tns="http://www.example.org/SuperheroSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/SuperheroSchema SuperheroSchema.xsd ">
+  <tns:superhero sid="sid1">
+    <tns:name>Batman</tns:name>
+    <tns:specialPower>Ability to fight</tns:specialPower>
+  </tns:superhero>
+  
+  <tns:superhero sid="sid2">
+    <tns:name>Superman</tns:name>
+    <tns:specialPower>Ability to fly</tns:specialPower>
+  </tns:superhero>
+</tns:globalsuperheroes>

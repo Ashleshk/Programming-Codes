@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MovieDetails>
+
+	<Movie>
+		<Name>Aasref</Name>
+		<Director>Amogh</Director>
+		<ReleaseDate>1, Jan 2018</ReleaseDate>
+		<Genre>Comedy</Genre>
+		<Actor>Test</Actor>
+	</Movie>
+
+
+	<Movie>
+		<Name>dfetf</Name>
+		<Director>Amogh</Director>
+		<ReleaseDate>1, Jan 2018</ReleaseDate>
+		<Genre>Comedy</Genre>
+		<Actor>Test</Actor>
+	</Movie>
+
+
+	<Movie>
+		<Name>setg</Name>
+		<Director>Amogh</Director>
+		<ReleaseDate>1, Jan 2018</ReleaseDate>
+		<Genre>Comedy</Genre>
+		<Actor>Test</Actor>
+	</Movie>
+
+</MovieDetails>

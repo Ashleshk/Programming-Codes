@@ -1,0 +1,14 @@
+<taglib>
+ <tlib-version>1.0</tlib-version>
+ <jsp-version>1.1</jsp-version>
+ <function>
+ 	<name>UPPER</name>
+ 		<function-class>com.seed.web.info.PersonInfo</function-class>
+ 		<function-signature>java.lang.String toUpper(java.lang.String )</function-signature>
+ </function>
+ <function>
+ 	<name>LENGTH</name>
+ 		<function-class>com.seed.web.info.PersonInfo</function-class>
+ 		<function-signature>int getLength(java.lang.String )</function-signature>
+ </function>
+</taglib>

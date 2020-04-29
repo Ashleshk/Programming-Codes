@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE superheroes SYSTEM "superHeroDtd.dtd">
+<superheroes>
+
+	<superhero sid="s1" speciality = "BatMobile">
+		<name>Batman</name>
+		<specialPower>ability to fight</specialPower>
+	</superhero>
+<superhero sid="s2" speciality = "CryptonionSkinCell  ">
+		<name>Superman</name>
+		<specialPower>ability to fly</specialPower>
+	</superhero>
+	  
+<superhero sid="s3">
+<name>SpiderMan</name>
+<specialPower>Web</specialPower>
+</superhero>
+
+</superheroes>
