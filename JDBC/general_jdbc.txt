@@ -1,0 +1,29 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+
+Class.forName("com.mysql.jdbc.Driver")
+
+Connection con=DriverManager.getConnection(jdbc:mysql://localhost:3306/sstudentdata,root,pwd);
+
+Statement st= (Statement) con.createStatement();
+ 
+ ResultSet rs= st.executeQuery("select * from studentdata");
+or
+int rs = st.executeUpdate("delete from studentdata where id="+key);
+or
+int rs = st.executeUpdate(string query); //write your query
+/*  do your stuff*/
+
+ps=con.prepareStatement("insert into studentdata value(?,?)");
+	      
+	      ps.setInt(1, i);
+	      ps.setString(2, s1.name);
+	      
+	      int k=ps.executeUpdate();
+	     
+st.close();
+con.close(); 
