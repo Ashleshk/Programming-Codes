@@ -14,4 +14,4 @@ Install dependencies:
 $ pip install -r requirements.txt
 ```
 
-
+Then, run it with no arguments:
