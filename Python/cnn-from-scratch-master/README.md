@@ -22,3 +22,5 @@ $ python cnn_keras.py
 ```
 
 You can also [run this code in your browser](https://repl.it/@vzhou842/A-CNN-from-scratch-Part-2).
+
+## More
