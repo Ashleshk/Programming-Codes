@@ -7,3 +7,11 @@ This was written for my 2-part blog post series on CNNs:
 To see the code (forward-phase only) referenced in Part 1, visit the [forward-only](https://github.com/vzhou842/cnn-from-scratch/tree/forward-only) branch.
 
 ## Usage
+
+Install dependencies:
+
+```bash
+$ pip install -r requirements.txt
+```
+
+
