@@ -24,3 +24,5 @@ $ python cnn_keras.py
 You can also [run this code in your browser](https://repl.it/@vzhou842/A-CNN-from-scratch-Part-2).
 
 ## More
+
+You may also be interested in [a Neural Network implemented from scratch in Python](https://github.com/vzhou842/neural-network-from-scratch),
