@@ -10,3 +10,7 @@ $ pip install numpy
 ```
 
 Then, run it with no arguments:
+
+```bash
+$ python network.py
+```
