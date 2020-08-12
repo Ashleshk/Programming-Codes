@@ -4,3 +4,7 @@ This was written for my blog post Machine Learning for Beginners: An Introductio
 ## Usage
 
 Install [numpy](http://www.numpy.org/), the only dependency, if you need to:
+
+```bash
+$ pip install numpy
+```
